@@ -13,7 +13,7 @@ button.addEventListener('click', async (e) => {
         alert('Ошибка! Пожалуйста, введите свое имя.');
         
     } else {
-        const response = await fetch("https://monach.onrender.com/", {
+        const response = await fetch("http://0.0.0.0:10000 ", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
